@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changeText()">Натисни</button>
+    <p id="text">Примерен парафраф.</p>
+</body>
+</html>
+<script>
+    function changeText(){
+        const contentDiv = document.getElementById("text");
+        contentDiv.innerHTML = "<p>Текстът е променен!</p>";
+    }
+    window.alert("Това е съобщение от JS!"); //това е изкачащо съобщение
+</script>
